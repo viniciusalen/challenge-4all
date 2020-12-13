@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12369B5B25864FF20007AD9C /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12369B5A25864FF20007AD9C /* Brain.swift */; };
 		12F29A3C25851B8500EDE443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F29A3B25851B8500EDE443 /* AppDelegate.swift */; };
 		12F29A3E25851B8500EDE443 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F29A3D25851B8500EDE443 /* SceneDelegate.swift */; };
 		12F29A4025851B8500EDE443 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F29A3F25851B8500EDE443 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12369B5A25864FF20007AD9C /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 		12F29A3825851B8500EDE443 /* challenge-4all.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "challenge-4all.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F29A3B25851B8500EDE443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12F29A3D25851B8500EDE443 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12369B5925864FCD0007AD9C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				12369B5A25864FF20007AD9C /* Brain.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		12369B5F258650110007AD9C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				12F29A3F25851B8500EDE443 /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		12369B612586502C0007AD9C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				12F29A4125851B8500EDE443 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		12F29A2F25851B8500EDE443 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +82,11 @@
 		12F29A3A25851B8500EDE443 /* challenge-4all */ = {
 			isa = PBXGroup;
 			children = (
-				12F29A3B25851B8500EDE443 /* AppDelegate.swift */,
 				12F29A3D25851B8500EDE443 /* SceneDelegate.swift */,
-				12F29A3F25851B8500EDE443 /* ViewController.swift */,
-				12F29A4125851B8500EDE443 /* Main.storyboard */,
+				12F29A3B25851B8500EDE443 /* AppDelegate.swift */,
+				12369B5925864FCD0007AD9C /* model */,
+				12369B5F258650110007AD9C /* controller */,
+				12369B612586502C0007AD9C /* view */,
 				12F29A4425851B8600EDE443 /* Assets.xcassets */,
 				12F29A4625851B8600EDE443 /* LaunchScreen.storyboard */,
 				12F29A4925851B8600EDE443 /* Info.plist */,
@@ -139,6 +166,7 @@
 			files = (
 				12F29A4025851B8500EDE443 /* ViewController.swift in Sources */,
 				12F29A3C25851B8500EDE443 /* AppDelegate.swift in Sources */,
+				12369B5B25864FF20007AD9C /* Brain.swift in Sources */,
 				12F29A3E25851B8500EDE443 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
